@@ -1,0 +1,29 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.header {
+  background-color: gray;
+}
+.menu {
+  border: 1px solid white;
+  color: white;
+}
+
+.main {
+}
+.article {
+  background-color: lightgray;
+}
+.article-title {
+  background-color: gray;
+}
+.footer {
+  background-color: black;
+}
+.footer-item {
+  color: white;
+  border: 1px solid white;
+}
