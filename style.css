@@ -26,14 +26,15 @@
 .article {
   display: flex;
   flex-direction: column;
-  margin: 32px;
-  width: 192px;
+  margin: 15px;
+  /*equals to width: 192px*/
+  flex-basis: 192px;
   height: 480px;
   background-color: lightgray;
 }
 
 .article-title {
-  height: 80px;
+  height: 75px;
   background-color: gray;
 }
 
