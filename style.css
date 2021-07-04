@@ -6,24 +6,43 @@
 
 .header {
   background-color: gray;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 50px;
 }
 .menu {
   border: 1px solid white;
   color: white;
+  padding: 10px;
 }
 
 .main {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  height: 523px;
 }
 .article {
   background-color: lightgray;
+  height: 70%;
+  width: 150px;
 }
 .article-title {
   background-color: gray;
+  height: 60px;
 }
 .footer {
   background-color: black;
+  display: flex;
+  align-self: flex-end;
+  justify-content: space-around;
+  align-items: center;
+  height: 50px;
 }
 .footer-item {
   color: white;
   border: 1px solid white;
+  width: 200px;
+  padding: 5px;
 }
