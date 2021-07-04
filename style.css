@@ -6,55 +6,47 @@
 
 .header {
   display: flex;
-  flex-direction: row;
   justify-content: space-evenly;
   background-color: gray;
+  padding: 16px;
 }
+
 .menu {
   border: 1px solid white;
-  margin: 5px;
-  padding: 15px;
   color: white;
+  padding: 16px;
 }
 
 .main {
   display: flex;
-  flex-direction: row;
-  justify-content: space-evenly;
+  justify-content: space-around;
+  padding: 48px;
 }
 
 .article {
-
-  background-color: lightgray;
-  width: 150px;
-  height: 250px;
-  margin: 15px;
-  padding: 10px;
   display: flex;
   flex-direction: column;
-  align-items: stretch;
-  justify-content: space-evenly;
-    
+  margin: 32px;
+  width: 192px;
+  height: 480px;
+  background-color: lightgray;
 }
 
 .article-title {
-  width: 150px;
-  height: 250px;
-  flex: 1 1 auto;
-  color: gray;
+  height: 80px;
+  background-color: gray;
 }
 
 .footer {
   display: flex;
-  flex-direction: row;
   justify-content: space-around;
-  flex: 1;
+  padding: 16px;
   background-color: black;
 }
 
 .footer-item {
-  color: white;
   border: 1px solid white;
-  margin: 15px;
-  padding: 5px;
-  }
+  padding: 12px;
+  width: 384px;
+  color: white;
+}
