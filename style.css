@@ -16,14 +16,14 @@ body {
   display: flex;
   justify-content: space-evenly;
   align-items: center;
-  height: 90px;
+  height: 5.6rem;
 
 }
 
 .menu {
   border: 1px solid white;
   color: white;
-  padding: 20px 30px;
+  padding: 1.25rem 2.1rem;
 }
 
 .main {
@@ -33,26 +33,26 @@ body {
 
 .article {
   background-color: lightgray;
-  width: 230px;
-  height: 350px;
+  width: 14.5rem;
+  height: 22rem;
 }
 
 .article-title {
   background-color: gray;
-  width: 230px;
-  height: 70px;
+  width: 14.5rem;
+  height: 4.4rem;
 }
 
 .footer {
   background-color: black;
   display: flex;
   justify-content: space-around;
-  height: 70px;
+  height: 4.4rem;
 }
 .footer-item {
   color: white;
   border: 1px solid white;
-  padding-right: 280px;
-  margin: 20px;
+  padding-right: 17.5rem;
+  margin: 1.25rem;
 
 }
