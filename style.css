@@ -35,8 +35,15 @@
 }
 .footer {
   background-color: black;
+  display: flex;
+  height: 15vh;
+  align-items: center;
+  justify-content: space-around;
 }
 .footer-item {
   color: white;
   border: 1px solid white;
+  padding: .5rem 12rem;
+  padding-left: 16px;
+  width: 23rem;
 }
