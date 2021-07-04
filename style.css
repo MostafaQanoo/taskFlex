@@ -5,25 +5,56 @@
 }
 
 .header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
   background-color: gray;
 }
 .menu {
   border: 1px solid white;
+  margin: 5px;
+  padding: 15px;
   color: white;
 }
 
 .main {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
 }
+
 .article {
+
   background-color: lightgray;
+  width: 150px;
+  height: 250px;
+  margin: 15px;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  justify-content: space-evenly;
+    
 }
+
 .article-title {
-  background-color: gray;
+  width: 150px;
+  height: 250px;
+  flex: 1 1 auto;
+  color: gray;
 }
+
 .footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  flex: 1;
   background-color: black;
 }
+
 .footer-item {
   color: white;
   border: 1px solid white;
-}
+  margin: 15px;
+  padding: 5px;
+  }
