@@ -5,7 +5,7 @@
 }
 
 .header {
-  background-color: gray;
+  background-color: rgb(117, 112, 112);
   display: flex;
   justify-content: space-evenly;
   align-items: center;
